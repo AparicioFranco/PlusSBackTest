@@ -17,4 +17,4 @@ Para crear usuarios o consultas:
 6. Finalmente ingresar a "inquiry": http://127.0.0.1:8000/inquiry/
 7. Completar los campos correspondientes y clickear en POST.
 8. Se crearon un area, un usuario y una consulta. Cada vez que se entra al link se va a ver un listado de todos los objetos correspondientes.
-9. Se puede correr en postman con el mismo url, o utilizando http://localhost:8000/area, por ejemplo, para obtener un listado de cada tabla.
+9. Tambien se va a poder crear usuarios, areas y consultas desde postman, haciendo un POST a la url antes mencionada, o utilizando http://localhost:8000/(postObject)/. Tambien se puede utilizar el get para obtener un listado de las distintas entidades creadas en cada tabla.
