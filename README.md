@@ -2,11 +2,14 @@
 
 1. Asegurarse de tener instalado docker y docker-compose.
 2. Instalar la imagen de postgres para docker (https://hub.docker.com/_/postgres o correr docker pull postgres en la terminal)
-3. Abrir el projecto e instalar rest_framework (https://www.django-rest-framework.org/ o utilizar el comando pip install djangorestframework)
-4. Luego, escribir el comando docker-compose up en la consola para levantar la base de datos. Asegurarse de no tener ninguna base de datos corriendo en el puerto 5432.
-5. Correr el comando: python manage.py makemigrations inquiry
-6. Correr el comando: python manage.py migrate
-7. Finalmente correr el comando: python manage.py runserver para levantar el server
+3. Asegurarse de tener instalado python3 (https://www.python.org/downloads/). Se puede verificar haciendo python3 --version en la terminal
+4. Asegurarse de tener instalado pip. Se puede verificar haciendo pip --version en la terminal.
+5. Abrir el projecto e instalar rest_framework (https://www.django-rest-framework.org/ o utilizar el comando pip install djangorestframework)
+6. Instalar psycopg2 usando el siguiente comando: pip install psycopg2-binary.
+7. Luego, escribir el comando docker-compose up en la consola para levantar la base de datos. Asegurarse de no tener ninguna base de datos corriendo en el puerto 5432.
+8. Correr el comando: python manage.py makemigrations inquiry
+9. Correr el comando: python manage.py migrate
+10. Finalmente correr el comando: python manage.py runserver para levantar el server
 
 Para crear usuarios o consultas:
 1. Entrar a: http://127.0.0.1:8000/
